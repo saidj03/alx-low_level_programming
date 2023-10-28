@@ -29,7 +29,9 @@ int main(int argc, char *argv[])
 	int coinsNumber = sizeof(coins) / sizeof(coins[0]);
 	int coinCount = 0;
 
-	for (int i = 0; i < coinsNumber; i++)
+	int i;
+
+	for (i = 0; i < coinsNumber; i++)
 	{
 		while (cents >= coins[i])
 		{
