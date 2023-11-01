@@ -4,7 +4,7 @@
 
 /**
   *_strlen - returns length of a string
-  *@c: char type
+  *@s: A pointer to character string
   *Return: string length
   */
 
